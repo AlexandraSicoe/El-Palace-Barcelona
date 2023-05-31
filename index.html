@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Palace Barcelona</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./design.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="content-container">
+      <div
+        class="d-flex align-self-center flex-column justify-content-between h-100"
+      >
+        <nav class="navbar navbar-expand-lg py-4 mt-4 mx-5">
+          <div class="container-fluid px-5">
+            <ul class="icon-list d-flex p-0 m-0">
+              <li>
+                <a href="https://www.instagram.com/hotelpalacebarcelona/"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li><i class="bi bi-facebook ms-3"></i></li>
+            </ul>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="navbar-brand">
+                <img
+                  src="./images/navbar brand.png"
+                  alt="El Palace Barcelona Logo"
+                />
+              </a>
+            </div>
+
+            <div class="d-flex">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+                  <li class="nav-item lang">
+                    <a class="nav-link" href="#">EN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">MENU</a>
+                  </li>
+                </ul>
+              </div>
+              <button
+                class="navbar-toggler nav-button"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span><i class="bi bi-list"></i></span>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <div class="title-container d-flex align-items-center flex-column py-5">
+          <h1 class="title">Timeless</h1>
+          <h2>Hotel El Palace Barcelona 5*GL</h2>
+        </div>
+        <div class="booking-menu pb-5">
+          <form
+            action="http://google.ro"
+            class="form-menu d-flex align-items-center justify-content-center"
+          >
+            <div class="input-container">
+              <select id="my-selector" class="form-control">
+                <option value="option1">2 adults</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+                <option value="option4">Option 4</option>
+              </select>
+            </div>
+            <hr />
+            <div class="input-container">
+              <select id="selector" class="form-control">
+                <option value="option1">0 children (&lt;12 years)</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+                <option value="option4">Option 4</option>
+              </select>
+            </div>
+            <hr />
+
+            <div class="input-container">
+              <p class="centered-text br-border-right">29-05-2023</p>
+            </div>
+
+            <div class="input-container">
+              <p class="centered-text">30-05-2023</p>
+            </div>
+            <hr />
+
+            <div class="input-container">
+              <input
+                type="text"
+                class="center-placeholder"
+                placeholder="Promocode"
+                class="form-control"
+              />
+            </div>
+            <div class="input-container button-container">
+              <button type="submit" class="form-control">BOOK NOW</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <iframe
+        src="https://www.youtube.com/embed/B_VL_2DWJtU?autoplay=1&loop=1&controls=0&showinfo=0&mute=1"
+        frameborder="0"
+      />
+    </div>
+    <!-- fixed modal -->
+    <div
+      class="modal modal-fullscreen-down bg-light"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalFullscreenLabel"
+      aria-hidden="true"
+      aria-modal="true"
+      role="dialog"
+    >
+      <div class="d-flex justify-content-center py-5 modal-header-container">
+        <img src="./images/navbar brand.png" alt="" />
+        <button
+          type="button"
+          class="btn-close close-button"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-content-container">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="#">The Hotel</a>
+            </li>
+            <li>
+              <a href="#">Rooms & Suites</a>
+            </li>
+
+            <li>
+              <a href="#">Restaurants</a>
+              <div>
+                <ul class="d-flex flex-wrap">
+                  <li>
+                    <a href="#">Amar Barcelona</a>
+                  </li>
+                  <li>
+                    <p>/</p>
+                  </li>
+                  <li>
+                    <a href="#">Rootop Garden</a>
+                  </li>
+                  <li>
+                    <p>/</p>
+                  </li>
+                  <li>
+                    <a href="#">Bluesman Cocktail Bar</a>
+                  </li>
+                  <li>
+                    <p>/</p>
+                  </li>
+                  <li>
+                    <a href="#">El Hall</a>
+                  </li>
+                  <li>
+                    <p>/</p>
+                  </li>
+                  <li>
+                    <a href="#">El Jardin</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">Experiences</a>
+              <div>
+                <ul class="d-flex flex-wrap">
+                  <li>
+                    <a href="#">All-day Menu</a>
+                  </li>
+                  <li>
+                    <p>/</p>
+                  </li>
+                  <li>
+                    <a href="#">Afternoon Tea</a>
+                  </li>
+                  <li>
+                    <p>/</p>
+                  </li>
+                  <li>
+                    <a href="#">Lazy Weekends</a>
+                  </li>
+                  <li>
+                    <p>/</p>
+                  </li>
+                  <li>
+                    <a href="#">The Arros</a>
+                  </li>
+                  <li>
+                    <p>/</p>
+                  </li>
+                  <li>
+                    <a href="#">Open-air Cinema</a>
+                  </li>
+                  <li>
+                    <p>/</p>
+                  </li>
+                  <li>
+                    <a href="#">Bluesman's music program</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">Meetings & Events</a>
+            </li>
+            <li>
+              <a href="#">Mayan Luxury Spa</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="modal-footer-container py-5 mt-auto">
+        <ul>
+          <li>
+            <a href="#">CONTACT</a>
+          </li>
+          <li>
+            <p>·</p>
+          </li>
+          <li>
+            <a href="#">GALLERY</a>
+          </li>
+          <li>
+            <p>·</p>
+          </li>
+          <li>
+            <a href="#">GIFT VOUCHERS</a>
+          </li>
+          <li>
+            <p>·</p>
+          </li>
+          <li>
+            <a href="#">PRESS RELEASES</a>
+          </li>
+          <li>
+            <p>·</p>
+          </li>
+          <li>
+            <a href="#">PARTNERSHIP</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
