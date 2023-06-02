@@ -8,7 +8,7 @@
   font-family: "Open Sans";
 }
 body {
-  background-color: black;
+  background-color: white;
 }
 .navbar {
   position: relative;
@@ -138,7 +138,8 @@ body {
   }
 }
 .content-container {
-  width: 100vw;
+  background-color: black;
+
   height: 100vh;
   position: relative;
   overflow: hidden;
@@ -222,5 +223,89 @@ body {
     .button-container {
       padding: 0;
     }
+  }
+}
+.carousel-container {
+  .carousel {
+    position: relative;
+  }
+  .designed-hr {
+    color: #d8272e;
+    position: absolute;
+    top: 120px;
+    display: block;
+    width: 100%;
+    z-index: 1;
+    hr {
+      width: 70%;
+      opacity: 1;
+    }
+  }
+  .carousel-item {
+    h4 {
+      font-family: customFont;
+      font-weight: 600;
+      font-size: 14px;
+      color: #d8272e;
+      letter-spacing: 2px;
+    }
+    img {
+      height: 509px;
+      object-fit: cover;
+    }
+    p {
+      font-family: "Open Sans";
+      font-size: 45px;
+      letter-spacing: 0.98px;
+      line-height: 40px;
+      margin-bottom: 1px;
+      margin-top: 15px;
+      font-weight: 300;
+    }
+    hr {
+      color: black;
+      width: 44px;
+    }
+    span {
+      font-family: "customFont";
+      font-style: italic;
+    }
+    .text {
+      font-family: customFont;
+      letter-spacing: 0;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .btn {
+      font-family: "customFont";
+      font-weight: bold;
+      background-color: transparent;
+      color: #d8272e;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      border-bottom: 1px solid #d8272e;
+      border-radius: 0;
+      padding: 0 0 5px 0;
+      margin-top: auto;
+    }
+    h2 {
+      font-family: "customFont";
+      font-style: italic;
+    }
+    .clock {
+      margin-top: 100px;
+    }
+    @media (max-width: 991px) {
+      .clock {
+        margin-top: 15px;
+      }
+    }
+  }
+  .carousel-control-next-icon {
+    background-image: url("https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/icons/Flecha.svg");
+  }
+  .carousel-control-prev-icon {
+    background-image: url("https://www.hotelpalacebarcelona.com/assets/themes/www.hotelpalacebarcelona.com/img/icons/Flecha-left.svg");
   }
 }
